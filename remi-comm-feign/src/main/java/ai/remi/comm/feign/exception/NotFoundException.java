@@ -6,12 +6,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
-
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author Remi
+ * @email remi@dianjiu.cc
  * @desc NotFoundException
  */
 @Data

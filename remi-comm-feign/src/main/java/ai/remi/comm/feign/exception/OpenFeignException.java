@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author Remi
+ * @email remi@dianjiu.cc
  * @desc OpenFeignException
  */
 @Data

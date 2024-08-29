@@ -4,8 +4,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author Remi
+ * @email remi@dianjiu.cc
  * @desc BadRequestException
  */
 @Data

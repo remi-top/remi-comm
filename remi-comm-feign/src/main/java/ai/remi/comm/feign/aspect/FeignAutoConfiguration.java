@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Configuration;
 
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author Remi
+ * @email remi@dianjiu.cc
  * @desc Feign 配置注册
  */
 @Configuration
@@ -47,6 +47,6 @@ public class FeignAutoConfiguration {
      */
     @Bean
     public ErrorDecoder errorDecoder() {
-        return new StartdisFeignErrorDecoder();
+        return new RemiFeignErrorDecoder();
     }
 }
