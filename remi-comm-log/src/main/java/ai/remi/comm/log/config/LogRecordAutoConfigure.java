@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.annotation.PostConstruct;
 
 /**
- * @author DianJiu
+ * @author DianJiu 【公众号 点九开源】
  * @email dianjiuxyz@gmail.com
  * @date 2022-07-19
  * @desc

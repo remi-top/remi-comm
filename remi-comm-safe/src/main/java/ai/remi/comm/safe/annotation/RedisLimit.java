@@ -10,7 +10,7 @@ import java.lang.annotation.*;
 /**
  * 基于Redis的防刷限流注解
  *
- * @author DianJiu
+ * @author DianJiu 【公众号 点九开源】
  * @email dianjiuxyz@gmail.com
  * @date 2022-07-19
  */

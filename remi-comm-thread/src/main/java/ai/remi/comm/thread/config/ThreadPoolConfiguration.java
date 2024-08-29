@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
- * @author DianJiu
+ * @author DianJiu 【公众号 点九开源】
  * @email lidianjiu@njydsz.com
  * @date 2022-07-20
  * @desc

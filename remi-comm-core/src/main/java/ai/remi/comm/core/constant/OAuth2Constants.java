@@ -4,7 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 /**
- * OAuth2异常常量
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
+ * @desc OAuth2异常常量
  */
 public class OAuth2Constants {
 

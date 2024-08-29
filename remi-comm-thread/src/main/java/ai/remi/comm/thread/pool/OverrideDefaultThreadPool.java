@@ -16,8 +16,8 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @author DianJiu
- * @author DianJiu
+ * @author DianJiu 【公众号 点九开源】
+ * @author DianJiu 【公众号 点九开源】
  * @email lidianjiu@njydsz.com
  * @date 2022-07-20
  * @desc 重写默认线程池配置

@@ -5,7 +5,7 @@ import java.lang.annotation.*;
 /**
  * 自定义注解防止表单重复提交
  *
- * @author DianJiu
+ * @author DianJiu 【公众号 点九开源】
  * @email dianjiuxyz@gmail.com
  * @date 2022-07-19
  */

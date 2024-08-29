@@ -1,7 +1,7 @@
 package ai.remi.comm.util.security;
 
 /**
- * @author DianJiu
+ * @author DianJiu 【公众号 点九开源】
  * @email lidianjiu@njydsz.com
  * @date 2022-07-26
  * @desc 公钥加密，私钥解密；私钥加签，公钥验签。

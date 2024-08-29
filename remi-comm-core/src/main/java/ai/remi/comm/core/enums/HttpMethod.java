@@ -6,8 +6,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 请求方式
- *
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
+ * @desc 请求方式
  */
 public enum HttpMethod {
     GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS, TRACE;

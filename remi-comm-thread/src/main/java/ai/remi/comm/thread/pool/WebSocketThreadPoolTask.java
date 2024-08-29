@@ -33,7 +33,7 @@ import java.util.concurrent.ThreadPoolExecutor;
  * 3、前者spring自己用着爽，后者离开spring我们用ThreadPoolExecutor爽。
  * 注意：ThreadPoolTaskExecutor 不会自动创建ThreadPoolExecutor需要手动调initialize才会创建
  *     如果@Bean 就不需手动，会自动InitializingBean的afterPropertiesSet来调initialize
- * @author DianJiu
+ * @author DianJiu 【公众号 点九开源】
  */
 @Configuration
 public class WebSocketThreadPoolTask {

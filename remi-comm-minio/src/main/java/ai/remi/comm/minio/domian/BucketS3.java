@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
- * @author DianJiu
+ * @author DianJiu 【公众号 点九开源】
  * @email dianjiuxyz@gmail.com
  * @desc 存储桶管理 BucketVO对象
  */

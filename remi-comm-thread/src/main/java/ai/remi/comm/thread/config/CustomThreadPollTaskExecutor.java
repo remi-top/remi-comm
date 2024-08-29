@@ -11,7 +11,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @author DianJiu
+ * @author DianJiu 【公众号 点九开源】
  * @email lidianjiu@njydsz.com
  * @date 2022-07-14
  * @desc

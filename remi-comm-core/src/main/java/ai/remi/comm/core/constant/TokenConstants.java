@@ -1,7 +1,9 @@
 package ai.remi.comm.core.constant;
 
 /**
- * Token的Key通用常量
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
+ * @desc Token的Key通用常量
  */
 public class TokenConstants {
 
