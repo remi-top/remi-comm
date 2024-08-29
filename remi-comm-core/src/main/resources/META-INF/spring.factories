@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  ai.remi.comm.core.config.StartdisConfig,\
+  ai.remi.comm.core.config.AuthFilterConfig,\
+  ai.remi.comm.core.spring.SpringProperties,\
+  ai.remi.comm.core.spring.SpringBeans
+
+  

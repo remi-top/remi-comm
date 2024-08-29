@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  ai.remi.comm.util.http.OkHttpUtils
+
+  
