@@ -14,8 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Set;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc B端集团公司验证类
  */
 @Component

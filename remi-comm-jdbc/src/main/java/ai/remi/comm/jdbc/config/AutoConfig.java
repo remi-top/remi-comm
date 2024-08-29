@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 自动配置类
  */
 @Configuration

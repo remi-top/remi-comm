@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc PageUtils 分页工具箱
  */
 public class PageUtils {

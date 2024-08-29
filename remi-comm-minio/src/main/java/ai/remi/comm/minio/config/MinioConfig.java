@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.annotation.Resource;
 
 /**
- * @author Startdis
+ * @author dianjiu【公众号 点九开源】
  * @email startdis@njydsz.com
  * @desc MinioConfig
  */

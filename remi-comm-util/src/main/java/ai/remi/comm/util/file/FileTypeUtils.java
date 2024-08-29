@@ -8,8 +8,8 @@ import java.io.File;
 import java.util.Objects;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc FileTypeUtils
  */
 public class FileTypeUtils {

@@ -10,8 +10,8 @@ import net.sf.jsqlparser.expression.StringValue;
 import java.util.Optional;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 更新人字段填充拦截器
  */
 public class UpdatedByHandler extends AbstractFieldFillHandler {

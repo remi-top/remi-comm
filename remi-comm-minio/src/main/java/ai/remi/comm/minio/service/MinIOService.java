@@ -24,7 +24,7 @@ import java.util.Optional;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Startdis
+ * @author dianjiu【公众号 点九开源】
  * @email startdis@njydsz.com
  * @desc MinIOService
  */

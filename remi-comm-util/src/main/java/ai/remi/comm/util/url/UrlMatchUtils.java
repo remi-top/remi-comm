@@ -6,8 +6,8 @@ import org.springframework.util.AntPathMatcher;
 import java.util.Collection;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 请求路径匹配工具类
  */
 public class UrlMatchUtils {

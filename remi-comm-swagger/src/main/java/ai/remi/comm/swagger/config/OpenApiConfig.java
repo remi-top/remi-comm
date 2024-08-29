@@ -23,9 +23,9 @@ public class OpenApiConfig {
     public OpenAPI springShopOpenAPI() {
         return new OpenAPI()
                 // 接口文档标题
-                .info(new Info().title("SDT API 3")
+                .info(new Info().title("Remi API 3")
                         // 接口文档描述
-                        .description("<div style='font-size:14px;color:red;'>Startdis OpenApi 3</div>")
+                        .description("<div style='font-size:14px;color:red;'>Remi OpenApi 3</div>")
                         // 接口文档版本
                         .version("v2.0.8")
                         // 开发者联系方式

@@ -4,8 +4,8 @@ package ai.remi.comm.util.auth;
 import ai.remi.comm.core.enums.IdentityTypeEnum;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc AuthInfo
  */
 public interface AuthInfo {

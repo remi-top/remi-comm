@@ -27,8 +27,8 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 字段填充拦截器
  */
 @Data

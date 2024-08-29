@@ -8,8 +8,8 @@ import lombok.Getter;
 import java.util.Arrays;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 权限范围枚举定义
  */
 @Getter

@@ -4,8 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 错误码设计描述
  * <p>
  * 面向日志的错误码定义共十三位（十位有意义，三位连接符），并且应该具有如下分类： 应用标识，表示错误属于哪个应用，三位数字。 功能域标识，表示错误属于应用中的哪个功能模块，三位数字。 错误类型，表示错误属于那种类型，一位字母。

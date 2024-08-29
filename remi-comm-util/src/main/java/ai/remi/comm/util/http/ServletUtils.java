@@ -42,8 +42,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 客户端工具类
  */
 @Slf4j

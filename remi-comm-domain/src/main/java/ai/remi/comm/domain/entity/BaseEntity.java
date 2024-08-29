@@ -13,8 +13,8 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【】
+ * @email dianjiuxyz@gmail.com
  * @desc BaseEntity
  */
 @Data

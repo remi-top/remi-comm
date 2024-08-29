@@ -18,7 +18,7 @@ public class TokenConstants {
     /**
      * 令牌前缀
      */
-    public static final String PREFIX = "Startdis";
+    public static final String PREFIX = "Remi";
 
     /**
      * 回调地址

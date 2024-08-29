@@ -24,8 +24,8 @@ import java.util.Set;
 
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 全局验证过滤器
  */
 @Slf4j

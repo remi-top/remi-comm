@@ -10,8 +10,8 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc ResultBean
  */
 @Data

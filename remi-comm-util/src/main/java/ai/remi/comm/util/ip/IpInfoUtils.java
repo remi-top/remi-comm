@@ -13,8 +13,8 @@ import java.io.InputStream;
 import java.io.Serializable;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc IpUtils IP归属地工具类
  */
 @Slf4j

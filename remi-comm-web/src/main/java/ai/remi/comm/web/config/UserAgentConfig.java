@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Configuration;
 
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc user-agent解析器
  */
 @Configuration

@@ -6,8 +6,8 @@ import lombok.extern.slf4j.Slf4j;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc RequestHolder
  */
 @Slf4j
@@ -43,10 +43,10 @@ public class RequestHolder {
         return authInfo;
     }
 
-    /*public static StartdisAuthInfo getStartdisAuthInfo() {
+    /*public static RemiAuthInfo getRemiAuthInfo() {
         AuthInfo authInfo = getAuthInfo();
-        if (authInfo instanceof StartdisAuthInfo){
-            return (StartdisAuthInfo) authInfo;
+        if (authInfo instanceof RemiAuthInfo){
+            return (RemiAuthInfo) authInfo;
         }
         throw new RuntimeException("类型转换错误");
     }*/

@@ -8,8 +8,8 @@ import lombok.Data;
 import java.util.Set;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc CompanyAuthInfo
  */
 @Data

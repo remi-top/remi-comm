@@ -6,8 +6,8 @@ import javax.annotation.PostConstruct;
 import java.util.TimeZone;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 设置项目默认时区
  */
 @Configuration

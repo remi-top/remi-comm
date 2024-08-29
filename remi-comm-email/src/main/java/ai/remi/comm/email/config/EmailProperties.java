@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Startdis
+ * @author dianjiu【公众号 点九开源】
  * @email startdis@njydsz.com
  * @desc Email配置类
  */

@@ -1,13 +1,13 @@
 package ai.remi.comm.util.security;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc PwdUtils 用户密码工具类
  */
 public class PwdUtils {
 
-    //private final static String DEFAULT_PASS="Startdis2022";
+    //private final static String DEFAULT_PASS="Remi2022";
 
     private final static String DEFAULT_PASS="123456";
 

@@ -22,8 +22,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc HttpClientUtils
  */
 public class HttpClientUtils {

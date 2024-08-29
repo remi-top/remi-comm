@@ -20,8 +20,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @date 2022-07-26
  * @desc DOMUtils
  */

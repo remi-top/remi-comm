@@ -3,8 +3,8 @@ package ai.remi.comm.util.id;
 import ai.remi.comm.util.hash.HashUtils;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc SnowflakeIDUtils
  */
 public class SnowflakeUtils {

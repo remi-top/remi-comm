@@ -7,8 +7,8 @@ import java.lang.reflect.Field;
 import java.util.*;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc BeanCopyUtils
  */
 public class BeanCopyUtils {

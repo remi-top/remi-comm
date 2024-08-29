@@ -5,8 +5,8 @@ import ai.remi.comm.core.enums.PermissionScopeEnum;
 import ai.remi.comm.core.enums.ServiceTypeEnum;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 全局请求头常量
  */
 public class HeaderConstant {

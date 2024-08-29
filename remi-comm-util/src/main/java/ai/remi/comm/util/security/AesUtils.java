@@ -13,8 +13,8 @@ import java.security.Key;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @date 2022-07-26
  * @desc AesUtils 加/解密工具类
  * 使用密钥时请使用 initKey() 方法来生成随机密钥

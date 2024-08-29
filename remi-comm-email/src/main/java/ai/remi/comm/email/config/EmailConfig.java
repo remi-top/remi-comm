@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 import java.util.Properties;
 
 /**
- * @author Startdis
+ * @author dianjiu【公众号 点九开源】
  * @email startdis@njydsz.com
  * @desc MinioConfig
  */

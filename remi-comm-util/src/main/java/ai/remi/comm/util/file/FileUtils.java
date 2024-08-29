@@ -13,8 +13,8 @@ import java.nio.charset.StandardCharsets;
 import java.text.DecimalFormat;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc FileUtils
  */
 public class FileUtils {

@@ -6,8 +6,8 @@ import com.google.common.collect.Sets;
 import java.util.Set;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 过滤器忽略常量
  */
 public class FilterIgnoreConstant {

@@ -13,8 +13,8 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc 租户拦截器抽象类
  */
 @Slf4j

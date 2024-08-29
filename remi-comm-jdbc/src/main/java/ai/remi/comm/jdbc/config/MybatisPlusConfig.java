@@ -16,8 +16,8 @@ import javax.annotation.Resource;
 
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc MybatisPlusConfig 配置类
  */
 @Slf4j

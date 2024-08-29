@@ -7,8 +7,8 @@ import java.io.*;
 import java.util.Base64;
 
 /**
- * @author Startdis
- * @email startdis@dianjiu.cc
+ * @author dianjiu【公众号 点九开源】
+ * @email dianjiuxyz@gmail.com
  * @desc Base64Kits
  */
 public class Base64Utils {
@@ -27,7 +27,7 @@ public class Base64Utils {
         //测试StringBase64
         long start = System.currentTimeMillis();
         //ThisIsMyCustomSecretKey012345678
-        String base64Str = Base64Utils.encode("StartdisNacosCustomSecretKey2024");
+        String base64Str = Base64Utils.encode("RemiNacosCustomSecretKey2024");
         System.out.println("字符串加密后的Base64为:" + base64Str);
         System.out.println("Base64字符串length=" + base64Str.length());
         String decode = Base64Utils.decode(base64Str);
