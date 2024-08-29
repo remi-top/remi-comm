@@ -21,11 +21,11 @@ public class MinioProperties {
     /**
      * 用户名
      */
-    private String accessKey;
+    private String username;
     /**
      * 密码
      */
-    private String secretKey;
+    private String password;
 
     /**
      * 桶名称

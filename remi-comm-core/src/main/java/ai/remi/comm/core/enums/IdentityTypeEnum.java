@@ -13,7 +13,7 @@ import lombok.Getter;
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public enum IdentityTypeEnum {
 
-    STARTDIS("startdis", "瑞米官方账号"),
+    STARTDIS("remi", "瑞米官方账号"),
     COMPANY("company", "集团公司账户"),
     VISITOR("visitor", "游客体验账号");
 

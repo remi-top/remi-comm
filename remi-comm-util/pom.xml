@@ -103,14 +103,10 @@
             <artifactId>hutool-all</artifactId>
             <groupId>cn.hutool</groupId>
         </dependency>
-        <!-- okhttp3 -->
+        <!--okhttp3-->
         <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
-            <groupId>com.squareup.okhttp3</groupId>
-        </dependency>
-        <dependency>
-            <artifactId>logging-interceptor</artifactId>
-            <groupId>com.squareup.okhttp3</groupId>
         </dependency>
         <!-- httpclient -->
         <dependency>

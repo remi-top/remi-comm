@@ -36,13 +36,13 @@ public class MinIOService {
     private MinioClient minioClient;
 
     public static void main(String[] args) throws Exception {
-        MinioClient minioClient = MinioClient.builder().endpoint("/http://1.13.21.54:9000").credentials("ydsz", "ydsz1020").build();
+        MinioClient minioClient = MinioClient.builder().endpoint("http://192.168.31.88:9000").credentials("admin", "Sdt@1020~").build();
         /*MinioClient minioClient =
                 MinioClient.builder()
                         .endpoint("https://play.min.io")
                         .credentials("Q3AM3UQ867SPQQA43P2F", "zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG")
                         .build();*/
-        boolean found = minioClient.bucketExists(BucketExistsArgs.builder().bucket("dianjiu").build());
+        boolean found = minioClient.bucketExists(BucketExistsArgs.builder().bucket("remi-boot").build());
         if (found) {
             System.out.println("dianjiu bucket name exists");
         } else {

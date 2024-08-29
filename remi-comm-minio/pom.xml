@@ -41,25 +41,6 @@
         <dependency>
             <groupId>io.minio</groupId>
             <artifactId>minio</artifactId>
-            <exclusions>
-                <exclusion>
-                    <artifactId>okhttp</artifactId>
-                    <groupId>com.squareup.okhttp3</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>logging-interceptor</artifactId>
-                    <groupId>com.squareup.okhttp3</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <!--okhttp3-->
-        <dependency>
-            <artifactId>okhttp</artifactId>
-            <groupId>com.squareup.okhttp3</groupId>
-        </dependency>
-        <dependency>
-            <artifactId>logging-interceptor</artifactId>
-            <groupId>com.squareup.okhttp3</groupId>
         </dependency>
         <!--slf4j-->
         <dependency>
