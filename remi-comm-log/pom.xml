@@ -56,10 +56,10 @@
             <artifactId>remi-comm-redis</artifactId>
         </dependency>
         <!--项目依赖-->
-        <!--<dependency>-->
-        <!--    <groupId>ai.remi.comm</groupId>-->
-        <!--    <artifactId>remi-iam-api</artifactId>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>ai.remi.cloud</groupId>
+            <artifactId>remi-sys-api</artifactId>
+        </dependency>
         <!--lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>

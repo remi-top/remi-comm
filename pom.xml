@@ -251,6 +251,11 @@
                 <artifactId>remi-comm-web</artifactId>
                 <version>${remi.version}</version>
             </dependency>
+            <dependency>
+                <groupId>ai.remi.cloud</groupId>
+                <artifactId>remi-sys-api</artifactId>
+                <version>${remi.version}</version>
+            </dependency>
             <!--内部服务依赖结束-->
 
             <!--数据库相关依赖开始-->
