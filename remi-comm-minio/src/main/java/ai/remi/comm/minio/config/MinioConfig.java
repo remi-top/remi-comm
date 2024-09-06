@@ -25,10 +25,14 @@ public class MinioConfig {
      */
     @Bean
     public MinioClient minioClient() {
-        return MinioClient.builder()
-                .endpoint(minioProperties.getUrl())
-                .credentials(minioProperties.getUsername(), minioProperties.getPassword())
-                .build();
+        try {
+            return MinioClient.builder()
+                    .endpoint(minioProperties.getEndpoint())
+                    .credentials(minioProperties.getUsername(), minioProperties.getPassword())
+                    .build();
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to initialize Minio client", e);
+        }
     }
 
 }

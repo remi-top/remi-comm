@@ -9,7 +9,7 @@ public class PwdUtils {
 
     //private final static String DEFAULT_PASS="Remi2022";
 
-    private final static String DEFAULT_PASS="123456";
+    private final static String DEFAULT_PASS="Remi@123";
 
 
     public static boolean isValidPassword(String password,String encodePassword) {
