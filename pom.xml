@@ -48,6 +48,13 @@
         <commons-validator.version>1.9.0</commons-validator.version>
         <!--1.4-->
         <commons-fileupload.version>1.5</commons-fileupload.version>
+        <!--2.7.0-->
+        <tika.version>2.7.0</tika.version>
+        <qiniu.version>7.13.1</qiniu.version>
+        <aliyun-sdk-oss.version>3.10.2</aliyun-sdk-oss.version>
+        <minio.version>8.5.12</minio.version>
+        <awssdk.version>2.26.3</awssdk.version>
+        <cos_api.version>5.6.213</cos_api.version>
         <!--1.0.10-->
         <device.version>1.0.10</device.version>
         <!--2.1.3-->
@@ -106,8 +113,6 @@
         <httpclient.version>4.5.13</httpclient.version>
         <!--4.10.0-->
         <okhttp3.version>4.12.0</okhttp3.version>
-        <!--8.5.12-->
-        <minio.version>8.5.12</minio.version>
         <!--velocity-->
         <velocity.version>1.7</velocity.version>
         <!--2.4.1-->
@@ -134,6 +139,7 @@
         <module>remi-comm-feign</module>
         <module>remi-comm-email</module>
         <module>remi-comm-exception</module>
+        <module>remi-comm-file</module>
         <module>remi-comm-auth</module>
         <module>remi-comm-safe</module>
         <module>remi-comm-swagger</module>
@@ -219,6 +225,11 @@
             <dependency>
                 <groupId>ai.remi.comm</groupId>
                 <artifactId>remi-comm-log</artifactId>
+                <version>${remi.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ai.remi.comm</groupId>
+                <artifactId>remi-comm-file</artifactId>
                 <version>${remi.version}</version>
             </dependency>
             <dependency>
@@ -372,6 +383,49 @@
                 <groupId>commons-fileupload</groupId>
                 <version>${commons-fileupload.version}</version>
             </dependency>
+            <!-- 获取文件类型 -->
+            <dependency>
+                <groupId>org.apache.tika</groupId>
+                <artifactId>tika-core</artifactId>
+                <version>${tika.version}</version>
+            </dependency>
+
+            <!-- qiniu-java-sdk -->
+            <dependency>
+                <groupId>com.qiniu</groupId>
+                <artifactId>qiniu-java-sdk</artifactId>
+                <version>${qiniu.version}</version>
+            </dependency>
+
+            <!-- aliyun-java-sdk -->
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>${aliyun-sdk-oss.version}</version>
+            </dependency>
+
+            <!-- Minio-java-sdk -->
+            <dependency>
+                <groupId>io.minio</groupId>
+                <artifactId>minio</artifactId>
+                <version>${minio.version}</version>
+            </dependency>
+
+            <!-- aws-s3-sdk-->
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>s3</artifactId>
+                <version>${awssdk.version}</version>
+            </dependency>
+
+            <!-- 腾讯-cos-sdk-->
+            <dependency>
+                <groupId>com.qcloud</groupId>
+                <artifactId>cos_api</artifactId>
+                <version>${cos_api.version}</version>
+            </dependency>
+
+            <!--validator-->
             <dependency>
                 <artifactId>commons-validator</artifactId>
                 <groupId>commons-validator</groupId>
@@ -528,12 +582,6 @@
                 <artifactId>easyexcel</artifactId>
                 <groupId>com.alibaba</groupId>
                 <version>${easyexcel.version}</version>
-            </dependency>
-            <!-- minio -->
-            <dependency>
-                <artifactId>minio</artifactId>
-                <groupId>io.minio</groupId>
-                <version>${minio.version}</version>
             </dependency>
             <!--velocity-->
             <dependency>
