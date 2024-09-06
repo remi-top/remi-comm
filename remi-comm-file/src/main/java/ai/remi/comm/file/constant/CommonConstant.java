@@ -41,7 +41,7 @@ public interface CommonConstant {
     /**
      * 默认树顶级id
      */
-    Long ROOT_PARENT_ID = -1L;
+    String ROOT_PARENT_ID = "0";
 
     /**
      * dtree指定图标
