@@ -17,7 +17,7 @@ public class MinioProperties {
     /**
      * 端点
      */
-    private String url;
+    private String endpoint;
     /**
      * 用户名
      */

@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>remi-comm-web</artifactId>
-    <name>remi-comm-web</name>
-    <description>remi-comm-web</description>
+    <artifactId>remi-comm-storage</artifactId>
+    <name>remi-comm-storage</name>
+    <description>remi-comm-storage</description>
 
     <parent>
         <groupId>ai.remi.top.comm</groupId>
@@ -27,55 +27,59 @@
     </distributionManagement>
 
     <dependencies>
-        <!-- common-core -->
-        <dependency>
-            <groupId>ai.remi.top.comm</groupId>
-            <artifactId>remi-comm-core</artifactId>
-        </dependency>
-        <!--common-jdbc-->
-        <dependency>
-            <groupId>ai.remi.top.comm</groupId>
-            <artifactId>remi-comm-jdbc</artifactId>
-        </dependency>
-        <!-- common-util -->
-        <dependency>
-            <groupId>ai.remi.top.comm</groupId>
-            <artifactId>remi-comm-util</artifactId>
-        </dependency>
-        <!--remi-comm-exception-->
-        <dependency>
-            <groupId>ai.remi.top.comm</groupId>
-            <artifactId>remi-comm-exception</artifactId>
-        </dependency>
-        <!--common-swagger-->
-        <dependency>
-            <groupId>ai.remi.top.comm</groupId>
-            <artifactId>remi-comm-swagger</artifactId>
-        </dependency>
-        <!--spring-web-->
+        <!-- spring -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!--skywalking-trace-->
+
+        <!--remi-comm-core-->
         <dependency>
-            <groupId>org.apache.skywalking</groupId>
-            <artifactId>apm-toolkit-trace</artifactId>
+            <groupId>ai.remi.top.comm</groupId>
+            <artifactId>remi-comm-core</artifactId>
         </dependency>
-        <!--lombok-->
+
+        <!--全局自定义异常-->
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
+            <groupId>ai.remi.top.comm</groupId>
+            <artifactId>remi-comm-exception</artifactId>
         </dependency>
-        <!--slf4j-->
+
+        <!--获取文件类型-->
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-core</artifactId>
         </dependency>
+        <!-- aliyun-java-sdk -->
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-nop</artifactId>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+        </dependency>
+
+        <!-- aliyun-java-sdk -->
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+        </dependency>
+
+        <!-- Minio-java-sdk -->
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+        </dependency>
+
+        <!-- aws-java-sdk -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>s3</artifactId>
+        </dependency>
+
+        <!-- 腾讯-cos-sdk-->
+        <dependency>
+            <groupId>com.qcloud</groupId>
+            <artifactId>cos_api</artifactId>
         </dependency>
     </dependencies>
+
 
 </project>

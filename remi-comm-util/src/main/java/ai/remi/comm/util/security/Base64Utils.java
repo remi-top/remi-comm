@@ -27,7 +27,8 @@ public class Base64Utils {
         //测试StringBase64
         long start = System.currentTimeMillis();
         //ThisIsMyCustomSecretKey012345678
-        String base64Str = Base64Utils.encode("RemiNacosCustomSecretKey2024");
+        //String base64Str = Base64Utils.encode("RemiAdminNacosCustomSecretKey2024");
+        String base64Str = Base64Utils.encode("RemiAdminNacosCustomSecretKey2024");
         System.out.println("字符串加密后的Base64为:" + base64Str);
         System.out.println("Base64字符串length=" + base64Str.length());
         String decode = Base64Utils.decode(base64Str);

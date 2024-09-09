@@ -201,7 +201,7 @@ public class LogRecordAspect {
             }
 
             // 保存数据库
-            asyncLogService.saveOperateLog(operateLog);
+            //asyncLogService.saveOperateLog(operateLog);
         } catch (Exception exp) {
             // 记录本地异常日志
             log.error("异常信息:{}", exp.getMessage());
