@@ -20,14 +20,6 @@ RemiAdmin/123456
 
 https://gitee.com/remi-top
 
-### GitTok
-
-https://gittok.com/remi-top
-
-### Gitlab
-
-https://gitlab.com/remi-top
-
 ### Github
 
 https://github.com/remi-top

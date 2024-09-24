@@ -17,12 +17,12 @@
         <repository>
             <id>maven-releases</id>
             <name>release</name>
-            <url>https://repository.njydsz.com/repository/maven-releases/</url>
+            <url>https://remi.njydsz.com/repository/remi-top-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
             <name>snapshot</name>
-            <url>https://repository.njydsz.com/repository/maven-snapshots/</url>
+            <url>https://remi.njydsz.com/repository/remi-top-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
