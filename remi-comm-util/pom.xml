@@ -37,21 +37,6 @@
             <artifactId>jaxb-api</artifactId>
             <groupId>javax.xml.bind</groupId>
         </dependency>
-        <!--jwt-->
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-impl</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-jackson</artifactId>
-            <scope>runtime</scope>
-        </dependency>
         <!--fastjson-->
         <dependency>
             <artifactId>fastjson</artifactId>
@@ -147,10 +132,6 @@
         <dependency>
             <artifactId>commons-collections</artifactId>
             <groupId>commons-collections</groupId>
-        </dependency>
-        <dependency>
-            <artifactId>commons-fileupload</artifactId>
-            <groupId>commons-fileupload</groupId>
         </dependency>
         <!--slf4j-->
         <dependency>
