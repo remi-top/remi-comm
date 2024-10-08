@@ -5,7 +5,7 @@
     <groupId>ai.remi.top.comm</groupId>
     <artifactId>remi-comm</artifactId>
     <name>remi-comm</name>
-    <version>3.1.0</version>
+    <version>3.1.1</version>
     <packaging>pom</packaging>
     <description>瑞米平台-公共依赖模块</description>
 
@@ -18,7 +18,7 @@
 
     <properties>
         <!--remi-->
-        <remi-comm.version>3.1.0</remi-comm.version>
+        <remi-comm.version>3.1.1</remi-comm.version>
         <!--jdk-->
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>

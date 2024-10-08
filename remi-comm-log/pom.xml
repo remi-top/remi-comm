@@ -10,7 +10,7 @@
     <parent>
         <groupId>ai.remi.top.comm</groupId>
         <artifactId>remi-comm</artifactId>
-        <version>3.1.0</version>
+        <version>3.1.1</version>
     </parent>
 
     <!-- 打包上传到私服， 需要和配置文件中的server节点配合使用 -->
